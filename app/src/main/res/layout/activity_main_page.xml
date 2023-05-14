@@ -8,12 +8,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button1"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
 
         android:layout_marginTop="@dimen/_196sdp"
-        android:background="@drawable/custom_log_button"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:background="@drawable/button_radius"
         android:drawableEnd="@drawable/baseline_delete_outline_24"
 
         android:onClick="onSmartDustbinClick"
@@ -30,12 +32,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
 
 
         android:layout_marginTop="@dimen/_32sdp"
-        android:background="@drawable/custom_log_button"
+        android:background="@drawable/button_radius"
         android:drawableEnd="@drawable/baseline_display_settings_24"
         android:onClick="onSmartNoticeClick"
 
@@ -56,12 +60,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
-        android:layout_width="@dimen/_230sdp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_40sdp"
+        android:layout_marginStart="@dimen/_40sdp"
 
 
         android:layout_marginTop="@dimen/_32sdp"
-        android:background="@drawable/custom_log_button"
+        android:background="@drawable/button_radius"
         android:drawableEnd="@drawable/baseline_home_24"
 
         android:onClick="onHomeAutoClick"

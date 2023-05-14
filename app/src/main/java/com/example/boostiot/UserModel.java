@@ -8,14 +8,6 @@ public class UserModel {
 
     public UserModel() {
     }
-
-    public UserModel(String username, String password, String number , String email) {
-        this.username = username;
-        this.password = password;
-        this.number = number;
-        this.email = email;
-    }
-
     public String getUsername() {
         return username;
     }
@@ -28,9 +20,9 @@ public class UserModel {
         return number;
     }
 
-    public String getEmail() {return email; }
-
-
+    public String getEmail() {
+        return email;
+    }
 
     public void setEmail(String email) {this.email = email;}
 

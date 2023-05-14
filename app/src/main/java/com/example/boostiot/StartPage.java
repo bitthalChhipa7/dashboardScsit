@@ -9,6 +9,8 @@ import android.os.Handler;
 import android.view.View;
 
 
+
+
 public class StartPage extends AppCompatActivity {
     View imageView ;
 
@@ -17,6 +19,7 @@ public class StartPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_page);
         imageView = findViewById(R.id.imageView);
+
 
         new Handler().postDelayed(new Runnable() {
             @Override

@@ -14,34 +14,13 @@
       },
       "oauth_client": [
         {
-          "client_id": "1035403816177-sj3mo9jlm99o1731hb3347rboehulb9k.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA7oTsy1skIkpkWhIQ8bVhCXShtxp29-Do"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1035403816177-sj3mo9jlm99o1731hb3347rboehulb9k.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1035403816177:android:48afff32e4545e437c0d50",
-        "android_client_info": {
-          "package_name": "com.example.myapplication"
-        }
-      },
-      "oauth_client": [
+          "client_id": "1035403816177-csaf4t629nlj0jaaea3jcc5eocm8gt68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.boostiot",
+            "certificate_hash": "8a0ed86a4d73fa0c8ada0ad4b2c83498d7c89156"
+          }
+        },
         {
           "client_id": "1035403816177-sj3mo9jlm99o1731hb3347rboehulb9k.apps.googleusercontent.com",
           "client_type": 3
